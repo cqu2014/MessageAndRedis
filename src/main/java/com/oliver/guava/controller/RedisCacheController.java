@@ -29,7 +29,7 @@ public class RedisCacheController {
 
         log.info("若下面没出现“无缓存的时候调用”字样且能打印出数据表示测试成功");
 
-        return "OK";
+        return "SUCCESS";
     }
 
     @GetMapping("/get")
