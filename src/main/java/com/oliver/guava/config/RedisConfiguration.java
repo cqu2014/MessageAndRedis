@@ -3,6 +3,8 @@ package com.oliver.guava.config;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.oliver.guava.approach.info.TemplateInfo;
+import com.oliver.guava.dto.FindTemplateParams;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;
@@ -41,12 +43,31 @@ public class RedisConfiguration extends CachingConfigurerSupport {
     public KeyGenerator oliverKeyGenerator() {
         return (target, method, params) -> {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append(target.getClass().getName());
-            stringBuilder.append(method.getName());
             for (Object objects : params) {
                 stringBuilder.append(objects.toString());
             }
             return stringBuilder.toString();
+        };
+    }
+
+
+    @Bean
+    public KeyGenerator LanguageSiteKeyGenerator(){
+        return (target, method, params) ->{
+            StringBuilder stringBuilder = new StringBuilder();
+            if (target instanceof TemplateInfo){
+                TemplateInfo templateInfo = (TemplateInfo) target;
+                stringBuilder.append(templateInfo.getLanguage())
+                        .append("-")
+                        .append(templateInfo.getSiteUid());
+
+                System.out.println(stringBuilder.toString());
+                return stringBuilder.toString();
+            }
+
+            System.out.println(target.getClass().getName());
+
+            return target.getClass().getName();
         };
     }
 
@@ -59,7 +80,7 @@ public class RedisConfiguration extends CachingConfigurerSupport {
     @Bean
     public CacheManager cacheManager(RedisConnectionFactory redisConnectionFactory){
         RedisCacheConfiguration redisCacheConfiguration = RedisCacheConfiguration.defaultCacheConfig()
-                .entryTtl(Duration.ofMinutes(1));
+                .entryTtl(Duration.ofMinutes(30));
         return RedisCacheManager.builder(RedisCacheWriter.nonLockingRedisCacheWriter(redisConnectionFactory))
                 .cacheDefaults(redisCacheConfiguration).build();
     }
