@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.oliver.guava.approach.info.User;
 import com.oliver.guava.constant.RabbitMQConstant;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -38,8 +39,11 @@ public class RabbitMQProductor{
                 routingKey = "BAD_ROUTING_KEY";
             }
 
+            CorrelationData correlationData = new CorrelationData();
+            correlationData.setId(String.valueOf(88888888));
+
             rabbitTemplate.convertAndSend(RabbitMQConstant.OLIVER_EXCHAGE,
-                    routingKey,user);
+                    routingKey,user,correlationData);
 
             log.info("product data [{}]",JSON.toJSONString(user));
         }
