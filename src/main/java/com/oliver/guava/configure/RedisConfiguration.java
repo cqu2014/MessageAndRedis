@@ -1,10 +1,9 @@
-package com.oliver.guava.config;
+package com.oliver.guava.configure;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.oliver.guava.approach.info.TemplateInfo;
-import com.oliver.guava.dto.FindTemplateParams;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;

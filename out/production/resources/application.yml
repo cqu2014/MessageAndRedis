@@ -2,13 +2,14 @@ server:
   port: 8080   #  配置启动端口号
 
 mybatis:
-  #config-location: classpath:mybatis/mybatis.cfg.xml    #  mybatis主配置文件所在路径
+  #configure-location: classpath:mybatis/mybatis.cfg.xml    #  mybatis主配置文件所在路径
   type-aliases-package: com.oliver.guava.dao   #  定义所有操作类的别名所在包
   mapper-locations: classpath:mybatis/mapper/*.xml  #  所有的mapper映射文件
 
-#Redis properties
 spring:
-  redis:
+  application:
+    name: guava-redis-rabbitmq
+  redis: #Redis properties
     host: localhost
     port: 6379
     jedis:
@@ -17,6 +18,19 @@ spring:
         min-idle: 0
         max-active: 8
         max-wait: -1
+  rabbitmq: #RabbitMq properties
+    host: 10.100.23.198
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    publisher-confirms: true #生产者可以判断消息是否发送到了broker
+    publisher-returns: true #生产者可以判断消息是否发送到了queue
+    listener:
+      direct:
+        acknowledge-mode: auto
+      simple:
+        acknowledge-mode: auto
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource  #  配置当前要使用的数据源的操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver    #  配置mysql的驱动程序类
