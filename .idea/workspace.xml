@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8008598e-16fc-46d4-bf6b-beaa117f723c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_configuration_processor_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/configuration/RabbitMqPropertyConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/constant/RabbitMQConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RabbitMqController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/consumer/OliverRabbitConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/consumer/OliverRabbitSecondConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/productor/RabbitMQProductor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/ConfirmCallbackListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitChannelListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitConnectionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RecoveryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/ReturnCallBackListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.oliver.guava.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.oliver.guava.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.oliver.guava.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.oliver.guava.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/approach/info/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/approach/info/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/config/RedisConfiguration.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/oliver/guava/GuavaApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/config/RedisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RedisConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -85,23 +65,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RedisConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1063">
-              <caret line="88" column="6" lean-forward="true" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="113" column="102" selection-start-line="113" selection-start-column="102" selection-end-line="113" selection-end-column="102" />
+            <state relative-caret-position="342">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3005#3006#0" expanded="true" />
+                <element signature="e#3022#3023#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -293,7 +264,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553744515278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553744555289" />
     <property name="last_opened_file_path" value="E:/ecrm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -435,7 +406,7 @@
       <workItem from="1553051879380" duration="41167000" />
       <workItem from="1553213114799" duration="5239000" />
       <workItem from="1553236844318" duration="49867000" />
-      <workItem from="1553661490985" duration="24286000" />
+      <workItem from="1553661490985" duration="24326000" />
     </task>
     <task id="LOCAL-00001" summary="int push">
       <created>1553246871955</created>
@@ -486,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553655050055</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Spring + Redis缓存">
+      <created>1553744529274</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553744529275</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142894000" />
+    <option name="totallyTimeSpent" value="142934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1020,11 +998,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="113" column="102" selection-start-line="113" selection-start-column="102" selection-end-line="113" selection-end-column="102" />
+        <state relative-caret-position="342">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3005#3006#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -48,7 +48,8 @@ public class RabbitMqConfiguration {
      */
     private CachingConnectionFactory getCachingConnectionFactory() {
         CachingConnectionFactory cachingConnectionFactory = new CachingConnectionFactory();
-        cachingConnectionFactory.setAddresses(propertyConfiguration.getHost().concat(":").concat(propertyConfiguration.getPort()));
+        cachingConnectionFactory.setAddresses(propertyConfiguration.getHost().concat(":")
+                .concat(propertyConfiguration.getPort()));
         cachingConnectionFactory.setUsername(propertyConfiguration.getUsername());
         cachingConnectionFactory.setPassword(propertyConfiguration.getPassword());
         cachingConnectionFactory.setVirtualHost(propertyConfiguration.getVirtualHost());
