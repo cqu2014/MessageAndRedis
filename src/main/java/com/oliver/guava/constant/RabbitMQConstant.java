@@ -11,7 +11,7 @@ public class RabbitMQConstant {
     /**
      * MQ 队列名称
      */
-    public static final String OLIVER_QUEUE_NAME = "oliverRabbit";
+    public static final String OLIVER_QUEUE_NAME = "middleRabbit";
 
     /**
     * MQ Exchange

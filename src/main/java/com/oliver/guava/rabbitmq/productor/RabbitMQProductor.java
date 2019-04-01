@@ -9,6 +9,10 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+
 /**
  * @Author Oliver Wang
  * @Description MQ生产者
@@ -25,7 +29,7 @@ public class RabbitMQProductor{
     /**
      * 数据生产者
      */
-    public void send(){
+    public void send() {
         log.info("开始生产数据发哦RabbitMq[{}]", RabbitMQConstant.OLIVER_QUEUE_NAME);
 
         for (long i=0;i<RabbitMQConstant.PRODUCTOR_ONE_TOME;i++){
@@ -44,6 +48,13 @@ public class RabbitMQProductor{
 
             rabbitTemplate.convertAndSend(RabbitMQConstant.OLIVER_EXCHAGE,
                     routingKey,user,correlationData);
+
+            try {
+                log.info("CorrelationData.Future = {}",
+                        correlationData.getFuture().get(10, TimeUnit.SECONDS).isAck());
+            } catch (InterruptedException | ExecutionException | TimeoutException e) {
+                e.printStackTrace();
+            }
 
             log.info("product data [{}]",JSON.toJSONString(user));
         }

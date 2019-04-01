@@ -88,7 +88,6 @@ public class RabbitMqConfiguration {
     @Bean
     public RabbitTemplate getRabbitTemplate(CachingConnectionFactory cachingConnectionFactory) {
         RabbitTemplate rabbitTemplate = new RabbitTemplate(cachingConnectionFactory);
-        rabbitTemplate.setConfirmCallback(confirmCallbackListener);
         /**
          * 当mandatory标志设置为true时
          * 如果exchange根据自身类型和消息的routingKey无法找到合适的queue存储消息
@@ -97,7 +96,12 @@ public class RabbitMqConfiguration {
          */
         rabbitTemplate.setMandatory(true);
         rabbitTemplate.setReturnCallback(returnCallBackListener);
+        //生产者与消费者mq链接分离
         rabbitTemplate.setUsePublisherConnection(true);
+        /**
+         * @code{rabbitTemplate.setConfirmCallback(confirmCallbackListener);}
+         * 验证使用CorrelationData的ListenableFuture来替代confirmCallbackListener
+         */
 
         return rabbitTemplate;
     }

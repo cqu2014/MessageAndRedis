@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8008598e-16fc-46d4-bf6b-beaa117f723c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitBlockedListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/constant/RabbitMQConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/constant/RabbitMQConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RedisCacheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RedisCacheController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/productor/RabbitMQProductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/productor/RabbitMQProductor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitConnectionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitConnectionListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -55,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/productor/RabbitMQProductor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            <state relative-caret-position="113">
+              <caret line="45" column="68" lean-forward="true" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +72,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RabbitMqController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="38" column="70" lean-forward="true" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+            <state relative-caret-position="677">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RedisCacheController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/BeanCopyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/LombokTest.java" />
@@ -142,14 +160,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqPropertyConfigure.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/configuration/RabbitMqPropertyConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitChannelListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitConnectionListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RecoveryListener.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/consumer/OliverRabbitConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/consumer/OliverRabbitSecondConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/constant/RabbitMQConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RabbitMqController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RabbitMqController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitBlockedListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitConnectionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/constant/RabbitMQConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/productor/RabbitMQProductor.java" />
       </list>
     </option>
@@ -182,6 +201,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,8 +271,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +280,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553747338498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554078715012" />
     <property name="last_opened_file_path" value="E:/ecrm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -403,7 +422,8 @@
       <workItem from="1553051879380" duration="41167000" />
       <workItem from="1553213114799" duration="5239000" />
       <workItem from="1553236844318" duration="49867000" />
-      <workItem from="1553661490985" duration="25844000" />
+      <workItem from="1553661490985" duration="28799000" />
+      <workItem from="1553820004417" duration="12084000" />
     </task>
     <task id="LOCAL-00001" summary="int push">
       <created>1553246871955</created>
@@ -475,16 +495,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553744574464</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Spring + Redis缓存">
+      <created>1553747440764</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553747440764</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144452000" />
+    <option name="totallyTimeSpent" value="159491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31236672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22921109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -496,7 +524,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3297062" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32752994" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" visible="true" weight="0.89336234" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" visible="true" weight="0.5745375" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -504,7 +532,7 @@
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.44069642" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32535365" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32527474" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" weight="0.32967034" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="15" />
@@ -569,35 +597,22 @@
     <MESSAGE value="Spring + Redis缓存" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring + Redis缓存" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>correlationData.getFuture().get(10, TimeUnit.SECONDS).isAck()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>log.info(&quot;CorrelationData.Future{}&quot;,
+                        correlationData.getFuture().get(10, TimeUnit.SECONDS).isAck())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/temporal/TemporalUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="111" column="7" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/time/Duration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="306" column="26" selection-start-line="306" selection-start-column="18" selection-end-line="306" selection-end-column="26" />
-          <folding>
-            <element signature="e#12078#12079#0" expanded="true" />
-            <element signature="e#12124#12125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/f66792d499a6fea6c7a743558f940e0ebf775ce3/jackson-databind-2.9.8-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -749,16 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RedisCacheController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/service/ITemplateService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
@@ -826,23 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.1.4.RELEASE/de2635cb84fab7f529ac392ec35705b5e1a35300/spring-rabbit-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/CorrelationData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/ConfirmCallbackListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/2.1.4.RELEASE/78fc5819f98eef107031c6f5bb08d242453f0b1/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-625">
@@ -854,22 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="39" column="116" selection-start-line="39" selection-start-column="116" selection-end-line="39" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitConnectionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,18 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RecoveryListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/ReturnCallBackListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -912,27 +872,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configuration/RabbitMqPropertyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.1.4.RELEASE/de2635cb84fab7f529ac392ec35705b5e1a35300/spring-rabbit-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="788" column="16" selection-start-line="788" selection-start-column="16" selection-end-line="788" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -950,10 +893,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/consumer/OliverRabbitConsumer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RedisConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="1063">
+          <caret line="88" column="6" lean-forward="true" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="201" column="22" lean-forward="true" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.1.4.RELEASE/de2635cb84fab7f529ac392ec35705b5e1a35300/spring-rabbit-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/CorrelationData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+          <folding>
+            <element signature="e#2521#2522#0" expanded="true" />
+            <element signature="e#2546#2547#0" expanded="true" />
+            <element signature="e#3468#3469#0" expanded="true" />
+            <element signature="e#3492#3493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/407c8f57c15605a13c76a869357181825a7a5db1/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/util/concurrent/SettableListenableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RecoveryListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitConnectionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/RabbitBlockedListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/utils/ConfirmCallbackListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -962,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/consumer/OliverRabbitSecondConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="247">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -970,19 +994,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RedisConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/consumer/OliverRabbitConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1063">
-          <caret line="88" column="6" lean-forward="true" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+        <state relative-caret-position="342">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configuration/RabbitMqPropertyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="1645">
+          <caret line="116" column="38" lean-forward="true" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2965#2966#0" expanded="true" />
             <element signature="e#3022#3023#0" expanded="true" />
           </folding>
         </state>
@@ -990,25 +1028,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/constant/RabbitMQConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="259">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RabbitMqController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RedisCacheController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="38" column="70" lean-forward="true" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+        <state relative-caret-position="361">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/controller/RabbitMqController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/productor/RabbitMQProductor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        <state relative-caret-position="113">
+          <caret line="45" column="68" lean-forward="true" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
