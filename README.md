@@ -19,7 +19,7 @@ guava基础组件学习实例
 5. @CachePut 刷新缓存
 6. KeyGenerator & cacheManager缓存管理器 & redisTemplate序列化设置
 7. 同一个应用中MQ的生产者和消费者应使用不同的连接(rabbitTemplate.setUsePublisherConnection(true))
-8. 使用RabbitListenerContainerFactory设置消费者每次消费的数目、消费者个数和Max消费者数据(SimpleRabbitListenerContainerFactory)
+8. 使用RabbitListenerContainerFactory设置消费者每次消费的数目、消费者线程个数和Max消费者线程数目(SimpleRabbitListenerContainerFactory)
 9. RabbitMq 异步消费的监听器接口
     ChannelListener：用于监听通道的创建和销毁
     ConnectionListener：监听连接的创建和销毁
