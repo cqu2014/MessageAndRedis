@@ -38,8 +38,17 @@ public class GuavaMultisetTest {
         System.out.println("------------------------------------------------------");
 
 
+
+
+
+
     }
 
+    /**
+     * 打印Multiset中元素的个数
+     *
+     * @param strings
+     */
     private void countSet(String[] strings) {
         Assert.notEmpty(strings, "数组必须包含元素");
         List<String> linkedList = Arrays.asList(strings);

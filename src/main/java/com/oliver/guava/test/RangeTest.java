@@ -1,7 +1,5 @@
 package com.oliver.guava.test;
 
-import com.google.common.base.Predicate;
-import com.google.common.base.Predicates;
 import com.google.common.collect.BoundType;
 import com.google.common.collect.Range;
 import com.google.common.primitives.Ints;
@@ -25,6 +23,9 @@ public class RangeTest {
         System.out.println(Range.open(1, 2));
         System.out.println(Range.closed(1, 1).contains(1));
         System.out.println("------------------------------------------------");
+        /**
+         * 常使用的序列处理方法
+         */
         System.out.println(Range.downTo(4, BoundType.OPEN));
         System.out.println(Range.upTo(4, BoundType.CLOSED));
         System.out.println(Range.range(1, BoundType.OPEN, 4, BoundType.CLOSED));

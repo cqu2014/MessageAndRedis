@@ -19,13 +19,7 @@ public class OrderingTest {
     private static final int NINE = 9;
 
     public static void main(String[] args) {
-        List<String> list = Lists.newArrayList();
-        list.add("1");
-        list.add("2");
-        list.add("3");
-        list.add("4");
-        list.add("5");
-        list.add("6");
+        List<String> list = Lists.newArrayList("1","2","3","4","5","6");
 
         System.out.println("naturalOrdering:" + Ordering.natural().sortedCopy(list));
         System.out.println("usingToStringOrdering:" + Ordering.usingToString().sortedCopy(list));
