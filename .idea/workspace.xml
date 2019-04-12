@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8008598e-16fc-46d4-bf6b-beaa117f723c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/MultimapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/service/CacheService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/service/CacheService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaMultisetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaMultisetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/OrderingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/OrderingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/RangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/RangeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/stringutils/JoinerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/stringutils/JoinerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/stringutils/SplitterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/stringutils/SplitterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/stringutils/StringsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/stringutils/StringsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/ClassToInstanceMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/ClassToInstanceMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/GuavaCacheTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/GuavaCacheTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/GuavaCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/GuavaCacheTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/GuavaMultisetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/GuavaMultisetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/GuavaTableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/GuavaTableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/OrderingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/OrderingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/RangeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/oliver/guava/test/RangeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/JoinerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/JoinerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/SplitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/SplitterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/StringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/StringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/ClassToInstanceMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/ClassToInstanceMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaCacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaTableTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -55,11 +69,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaMultisetTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/test/MultimapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="715">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2965#2966#0" expanded="true" />
+                <element signature="e#3022#3023#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,21 +120,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/LombokTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/BitOperatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/PreconditionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaBimapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaTableTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/ClassToInstanceMapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/JoinerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/SplitterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaThrowablesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaCacheTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/GuavaCharMatcherTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/primitive/GuavaIntsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/primitive/GuavaMultimapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/StringsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/Address.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
@@ -140,6 +164,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/OrderingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/RangeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaMultisetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaTableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/ClassToInstanceMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaCacheTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/test/MultimapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/JoinerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/SplitterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/StringsTest.java" />
       </list>
     </option>
   </component>
@@ -172,7 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +235,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="approach" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guava" type="b2602c69:ProjectViewProjectNode" />
@@ -212,13 +243,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="configure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,8 +259,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554198665894" />
-    <property name="last_opened_file_path" value="E:/ecrm" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554348936454" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="spring.boot" />
@@ -251,9 +282,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GuavaApplication">
-    <configuration name="OrderingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oliver.guava.test.OrderingTest" />
+  <component name="RunManager" selected="Application.StringsTest">
+    <configuration name="GuavaCacheTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oliver.guava.test.GuavaCacheTest" />
       <module name="com.oliver.guava.main" />
       <extension name="coverage">
         <pattern>
@@ -265,8 +296,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oliver.guava.test.RangeTest" />
+    <configuration name="JoinerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oliver.guava.stringutils.JoinerTest" />
+      <module name="com.oliver.guava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oliver.guava.stringutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultimapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oliver.guava.test.MultimapTest" />
       <module name="com.oliver.guava.main" />
       <extension name="coverage">
         <pattern>
@@ -278,12 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateServiceIpml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oliver.guava.service.impl.TemplateServiceIpml" />
+    <configuration name="SplitterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oliver.guava.stringutils.SplitterTest" />
       <module name="com.oliver.guava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oliver.guava.service.impl.*" />
+          <option name="PATTERN" value="com.oliver.guava.stringutils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,43 +335,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="guava [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="guava [mybatisGenerate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="mybatisGenerate" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+    <configuration name="StringsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oliver.guava.stringutils.StringsTest" />
+      <module name="com.oliver.guava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oliver.guava.stringutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="GuavaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="com.oliver.guava.main" />
@@ -338,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RangeTest" />
-        <item itemvalue="Application.OrderingTest" />
-        <item itemvalue="Application.TemplateServiceIpml" />
-        <item itemvalue="Gradle.guava [clean]" />
-        <item itemvalue="Gradle.guava [mybatisGenerate]" />
+        <item itemvalue="Application.StringsTest" />
+        <item itemvalue="Application.SplitterTest" />
+        <item itemvalue="Application.JoinerTest" />
+        <item itemvalue="Application.MultimapTest" />
+        <item itemvalue="Application.GuavaCacheTest" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +385,10 @@
       <workItem from="1553236844318" duration="49867000" />
       <workItem from="1553661490985" duration="28799000" />
       <workItem from="1553820004417" duration="25123000" />
-      <workItem from="1554170411790" duration="10301000" />
+      <workItem from="1554170411790" duration="10990000" />
+      <workItem from="1554255822967" duration="616000" />
+      <workItem from="1554276002458" duration="11238000" />
+      <workItem from="1555063604280" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="int push">
       <created>1553246871955</created>
@@ -466,17 +488,33 @@
       <option name="project" value="LOCAL" />
       <updated>1554090131990</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Spring + Redis缓存">
+      <created>1554253985115</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554253985115</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182831000" />
+    <option name="totallyTimeSpent" value="195398000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -484,21 +522,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.3297062" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3297062" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.4857143" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.45274726" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5065934" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.40152338" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32861805" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.44069642" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32527474" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32861805" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -577,122 +615,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="954" column="16" selection-start-line="954" selection-start-column="16" selection-end-line="954" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/ReferencePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="468" column="20" lean-forward="true" selection-start-line="468" selection-start-column="20" selection-end-line="468" selection-end-column="20" />
-          <folding>
-            <element signature="e#17054#17055#0" expanded="true" />
-            <element signature="e#17109#17110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/AbstractPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="227" column="26" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/dao/TemplatePo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/TemplatePoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/TemplateContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/TemplateInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.5.RELEASE/9f42597b821f59087bf759695992c5ea8a1fcf0d/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/cache/annotation/Cacheable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2370">
-          <caret line="179" column="12" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/dto/FindTemplateParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/mapper/TemplatePoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/service/impl/TemplateServiceIpml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/approach/info/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.1.4.RELEASE/de2635cb84fab7f529ac392ec35705b5e1a35300/spring-rabbit-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="145" column="39" lean-forward="true" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/2.1.4.RELEASE/78fc5819f98eef107031c6f5bb08d242453f0b1/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-625">
@@ -887,18 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="125" column="51" lean-forward="true" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2965#2966#0" expanded="true" />
-            <element signature="e#3022#3023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/rabbitmq/consumer/OliverRabbitConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -1034,10 +944,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/HashBiMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="52" column="2" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+          <folding>
+            <element signature="e#2622#2623#0" expanded="true" />
+            <element signature="e#2649#2650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaBimapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/BiMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaMultisetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="551">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ClassToInstanceMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/test/ClassToInstanceMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="101" column="42" lean-forward="true" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+          <folding>
+            <element signature="e#484#652#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/test/GuavaTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/base/Joiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
+          <folding>
+            <element signature="e#6841#6842#0" expanded="true" />
+            <element signature="e#6880#6881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/base/Splitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311">
+          <caret line="430" column="21" selection-start-line="430" selection-start-column="21" selection-end-line="430" selection-end-column="21" />
+          <folding>
+            <element signature="e#17519#17520#0" expanded="true" />
+            <element signature="e#17572#17573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/JoinerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/SplitterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/stringutils/StringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/test/MultimapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oliver/guava/configure/RabbitMqConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2965#2966#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -25,7 +25,6 @@ public class JoinerTest {
         System.out.println("-------------------------------------------------");
         Joiner stringJoiner = Joiner.on("|").skipNulls();
         //就像Java8中流操作，useForNull返回一个新的Joiner独享，stringJoiner并没有发生变化
-        //stringJoiner.useForNull("missing");
         System.out.println(Joiner.on("|").skipNulls().join("foo",null, "bar"));
 
     }

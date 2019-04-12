@@ -19,7 +19,9 @@ public class SplitterTest {
         System.out.println("4.字符串分割转List："+strList);
 
         // 5.字符串转Map
-        Map<String,String> strMap = Splitter.on(";").trimResults().withKeyValueSeparator("=").split("a=2;b=3");
+        Map<String,String> strMap = Splitter.on(";").trimResults()
+                .withKeyValueSeparator('=')
+                .split("a=2;b=3");
         System.out.println("5.字符串分割转Map："+strMap);
 
 

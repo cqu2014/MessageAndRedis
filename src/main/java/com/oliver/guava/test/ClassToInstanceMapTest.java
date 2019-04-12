@@ -15,10 +15,16 @@ import lombok.ToString;
 public class ClassToInstanceMapTest {
     public static void main(String[] args) {
         ClassToInstanceMap<Number> numberClassToInstanceMap = MutableClassToInstanceMap.create();
+        /**
+         * 一个原生类型和他的相应的包装类可以映射到不同的值
+         */
         numberClassToInstanceMap.put(Integer.class, 0);
         numberClassToInstanceMap.put(int.class,100);
         System.out.println(numberClassToInstanceMap.getInstance(Integer.class));
-        //父类型亦获取不到子类型对应的值
+        /**
+         * 父类型和子类型属于不同的类型，不存在任何关联
+         */
+        numberClassToInstanceMap.put(Number.class,6666);
         System.out.println(numberClassToInstanceMap.getInstance(Number.class));
         System.out.println(numberClassToInstanceMap.getInstance(Double.class));
         //一个原生类型和他的相应的包装类可以映射到不同的值

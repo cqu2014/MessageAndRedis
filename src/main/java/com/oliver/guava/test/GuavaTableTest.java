@@ -20,7 +20,6 @@ public class GuavaTableTest {
         }
 
         System.out.println(atable);
-
         System.out.println(atable.rowKeySet());
         System.out.println(atable.columnKeySet());
         System.out.println("------------------------------------");

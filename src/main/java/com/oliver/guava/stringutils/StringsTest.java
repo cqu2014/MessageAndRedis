@@ -15,6 +15,9 @@ import java.util.Map;
  */
 public class StringsTest {
     public static void main(String[] args) {
+        /**
+         * 判断字符创是否为null||""
+         */
         String input = "";
         System.out.println(Strings.isNullOrEmpty(input));
 
@@ -30,7 +33,7 @@ public class StringsTest {
         System.out.println(Strings.commonSuffix(c, d));
 
         /**
-         * 不全字符串
+         * 补全字符串
          */
         int minLength = 4;
         System.out.println(Strings.padEnd("123", minLength, '0'));
