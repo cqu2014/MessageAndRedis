@@ -1,9 +1,8 @@
 package com.oliver.guava.dao;
 
-import java.io.Serializable;
 import java.util.Date;
 
-public class TemplatePo implements Serializable {
+public class TemplatePo {
     private Integer id;
 
     private String brand;
