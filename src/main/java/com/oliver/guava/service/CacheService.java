@@ -19,7 +19,7 @@ import java.util.Optional;
  * @Date Create at 2019/3/25
  * @Since
  */
-@Service
+@Service("cacheService")
 @Slf4j
 public class CacheService {
     @Autowired

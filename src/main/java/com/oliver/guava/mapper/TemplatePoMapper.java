@@ -1,11 +1,13 @@
 package com.oliver.guava.mapper;
 
 import com.oliver.guava.dao.TemplatePo;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.ResultMap;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Component;
 
+@Mapper()
 @Component("templatePoMapper")
 public interface TemplatePoMapper {
     int deleteByPrimaryKey(Integer id);
