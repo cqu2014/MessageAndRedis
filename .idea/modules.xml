@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.oliver.guava.iml" filepath="$PROJECT_DIR$/.idea/modules/com.oliver.guava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.oliver.guava.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.oliver.guava.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.oliver.guava.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.oliver.guava.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guava-retry.iml" filepath="$PROJECT_DIR$/guava-retry.iml" />
     </modules>
   </component>
 </project>
