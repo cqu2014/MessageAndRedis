@@ -1,7 +1,6 @@
 package com.oliver.guava.service;
 
 import com.oliver.guava.approach.info.TemplateInfo;
-import com.oliver.guava.dao.TemplatePo;
 import com.oliver.guava.dto.FindTemplateParams;
 
 import java.util.Optional;
