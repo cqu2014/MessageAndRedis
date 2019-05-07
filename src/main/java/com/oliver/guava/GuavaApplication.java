@@ -1,5 +1,6 @@
 package com.oliver.guava;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date Create at 2019-03-16 08:40
  */
 @SpringBootApplication
+@MapperScan(basePackages = {"com.oliver.guava.mapper"})
 public class GuavaApplication {
 
     public static void main(String[] args) {

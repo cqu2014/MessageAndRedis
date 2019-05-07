@@ -19,10 +19,10 @@ spring:
         max-active: 8
         max-wait: -1
   rabbitmq: #RabbitMq properties
-    host: 10.100.23.198
+    host: 169.44.201.253
     port: 5672
-    username: guest
-    password: guest
+    username: order
+    password: 123456
     virtual-host: /
     publisher-confirms: true #生产者可以判断消息是否发送到了broker
     publisher-returns: true #生产者可以判断消息是否发送到了queue

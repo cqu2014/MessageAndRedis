@@ -53,8 +53,8 @@ task mybatisGenerate {
             classname: 'org.mybatis.generator.ant.GeneratorAntTask',
             classpath: configurations.mybatisGenerator.asPath
     )
-    ant.mbgenerator(overwrite: true,
-            configfile: 'src/main/resources/generator/generatorConfig.xml', verbose: true)
+   /* ant.mbgenerator(overwrite: true,
+            configfile: 'src/main/resources/generator/generatorConfig.xml', verbose: true)*/
 }
 
 //添加本地仓库
