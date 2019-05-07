@@ -46,9 +46,9 @@ public class TemplateServiceIpml implements ITemplateService {
     @Override
     public Optional<TemplateInfo> findTemplate(FindTemplateParams params) {
         log.info("findTemplate:input data [{}]", JSON.toJSONString(params));
-        TemplatePo templatePo ;
+        TemplatePo templatePo = null;
         try {
-            templatePo = templatePoMapper.queryTemplate(params.getBrand(),params.getEmailType());
+            //templatePo = templatePoMapper.queryTemplate(params.getBrand(),params.getEmailType());
             log.info("findTemplate:查询数据库成功:{}",templatePo == null?null:templatePo.getEmailType());
         }catch (Exception ex){
             log.error("findTemplate: 查询数据库异常{}",ex);

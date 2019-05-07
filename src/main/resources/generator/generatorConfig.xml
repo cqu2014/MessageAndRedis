@@ -18,16 +18,16 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
         <!-- 生成模型的包名和位置-->
-        <javaModelGenerator targetPackage="com.oliver.guava.dao" targetProject="../guava/src/main/java">
+        <javaModelGenerator targetPackage="com.oliver.guava.dao" targetProject="../guava-retry/src/main/java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
         <!-- 生成映射文件xml的包名和位置-->
-        <sqlMapGenerator targetPackage="mybatis.mapper" targetProject="../guava/src/main/resources">
+        <sqlMapGenerator targetPackage="mybatis.mapper" targetProject="../guava-retry/src/main/resources">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
         <!-- 生成Mapper类的包名和位置-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.oliver.guava.mapper" targetProject="../guava/src/main/java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.oliver.guava.mapper" targetProject="../guava-retry/src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 

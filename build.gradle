@@ -3,11 +3,14 @@ plugins {
     id 'java'
 }
 
+apply plugin: 'maven-publish'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.oliver'
-version = '0.0.1-SNAPSHOT'
+version = mainVersion
+
 sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
 
 configurations {
     compileOnly {
@@ -53,3 +56,28 @@ task mybatisGenerate {
     ant.mbgenerator(overwrite: true,
             configfile: 'src/main/resources/generator/generatorConfig.xml', verbose: true)
 }
+
+//添加本地仓库
+allprojects {
+    repositories {
+        mavenLocal()    // 添加本地仓库
+        jcenter()
+    }
+}
+
+/**
+ * 设置发布到本地仓库
+ * gradlew publishToMavenLocal发布到本地
+ * gradlew publish 发布到远程私服
+ */
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
+

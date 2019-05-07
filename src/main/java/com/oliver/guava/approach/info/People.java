@@ -29,7 +29,7 @@ public class People {
     /**
     *
     */
-    private String  zhong = "哺乳动物";
+    private String  zhong;
     
     /**
     * 
