@@ -11,17 +11,17 @@ public class RabbitMQConstant {
     /**
      * MQ 队列名称
      */
-    public static final String OLIVER_QUEUE_NAME = "oliverRabbit";
+    public static final String OLIVER_QUEUE_NAME = "${mq.queue_name}";
 
     /**
     * MQ Exchange
     */
-    public static final String OLIVER_EXCHAGE = "oliverExchange";
+    public static final String OLIVER_EXCHAGE = "${mq.exchange}";
 
     /**
      * MQ routingKey
      */
-    public static final String OLIVER_ROUNT_KEY = "oliverRoutingKey";
+    public static final String OLIVER_ROUNT_KEY = "${mq.route_key}";
 
     /**
      * 每次消费的个数

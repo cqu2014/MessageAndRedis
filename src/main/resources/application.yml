@@ -19,7 +19,7 @@ spring:
         max-active: 8
         max-wait: -1
   rabbitmq: #RabbitMq properties
-    host: 10.100.23.198
+    host: localhost
     port: 5672
     username: guest
     password: guest
@@ -49,3 +49,9 @@ pagehelper:                     #pagehelper分页插件
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
+
+# 连接mq信息
+mq:
+  queue_name: oliver_queue
+  exchange: oliverExchange
+  route_key: oliverRoutingKey

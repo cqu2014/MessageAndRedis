@@ -34,11 +34,8 @@ guava基础组件学习实例
 11. 死信队列 用来保存满足一定条件未被消费的消息比如 5min未被消费掉
 
 
-#### 码云特技
+#### 小知识点
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 使用 $ 符读取application.yml 中的参数复制给final量：public static final String OLIVER_QUEUE_NAME = "${mq.queue_name}";
+2. Gradle的publishing插件发布jar包到本地maven仓库或远程仓库
+3. Mybatis自动生成代码模块存在重复覆盖的问题---待解决
