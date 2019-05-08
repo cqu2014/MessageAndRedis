@@ -9,10 +9,10 @@ Servers/
 target/
 log/
 
-guava-retry/out/
-guava-retry/build/
-guava-retry/bin/
+guava/out/
+guava/build/
+guava/bin/
 
 #不提交单测
-guava-retry/src/test/
+guava/src/test/
 /build/
