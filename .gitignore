@@ -8,6 +8,7 @@ Servers/
 .gradle/
 target/
 log/
+*.lock
 
 guava/out/
 guava/build/
