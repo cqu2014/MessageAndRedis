@@ -10,7 +10,7 @@ spring:
   application:
     name: guava-redis-rabbitmq
   redis: #Redis properties
-    host: localhost
+    host: ${host.name}
     port: 6379
     jedis:
       pool:
@@ -19,7 +19,7 @@ spring:
         max-active: 8
         max-wait: -1
   rabbitmq: #RabbitMq properties
-    host: localhost
+    host: ${host.name}
     port: 5672
     username: guest
     password: guest
@@ -34,7 +34,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource  #  配置当前要使用的数据源的操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver    #  配置mysql的驱动程序类
-    url: jdbc:mysql://localhost:3306/ecrmdb?serverTimezone=UTC
+    url: jdbc:mysql://${host.name}:3306/ecrmdb?serverTimezone=UTC
     username: root                                 #  数据库用户名
     password: 123456                                #  数据库密码
     filters: stat,wall,log4j                      #  配置druid过滤器，开启监控
